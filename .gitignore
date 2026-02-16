@@ -7,6 +7,7 @@ venv/
 
 # Generated images
 *.png
+!docs/*.png
 
 # API key (user-managed, not committed)
 .api_key
