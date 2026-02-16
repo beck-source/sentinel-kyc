@@ -130,6 +130,8 @@ Sentinel KYC has **four built-in Claude AI features** for compliance workflows. 
 
 These features demonstrate real-world AI integration in a compliance workflow — streaming responses, domain-specific prompts, and contextual data injection.
 
+> [image2] Customer detail page showing AI Risk Assessment streaming response
+
 > **Tip**: If you don't have an API key, the AI buttons will show a prompt to configure one. The rest of the app works fully without it.
 
 ---
@@ -196,6 +198,8 @@ Claude will:
 
 This demonstrates how Claude Code can quickly onboard you to an unfamiliar codebase.
 
+> [image3] Generated HTML architecture diagram showing React → Vite → FastAPI → PostgreSQL data flow
+
 ---
 
 ## Step 6: Build a Feature
@@ -233,6 +237,8 @@ Claude will present a plan. Review it — when it looks good, **accept the plan*
 Claude may ask you clarifying questions using the AskUserQuestion tool (e.g., "Should the override be reversible?" or "Should the justification be displayed on the timeline?"). Answer these as they come up.
 
 **Test the feature** in your browser once Claude finishes — navigate to a customer detail page and try overriding the risk tier.
+
+> [image4] Risk tier override modal on the customer detail page
 
 **Then iterate:**
 
@@ -558,7 +564,11 @@ Look at how the Reports page is currently built for reference.
 
 ### Step 3: Verify
 
-Click the Export button and check the downloaded PDF. Does it include all the metrics, charts, and narrative? Iterate if needed:
+Click the Export button and check the downloaded PDF. Does it include all the metrics, charts, and narrative?
+
+> [image5] Reports page with the new Export Report button
+
+Iterate if needed:
 
 ```
 The PDF is missing the chart visualizations. Can you render them as static images in the PDF?
